@@ -1,6 +1,6 @@
 {
   "name": "Daily Bread: Bible Chat & Devotional",
-  "description": "A faith-centered devotional companion app featuring daily Bible readings, personalized AI Scripture chat, community prayer walls, dynamic prayer journals, and active streak trackers.",
+  "description": "FaithFlow, a premium faith-centered companion app featuring immersive daily Bible readings, personalized AI Scripture chat, community prayer walls, dynamic prayer journals, and active streak trackers.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
