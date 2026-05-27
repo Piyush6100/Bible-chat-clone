@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cinzel", "Playfair Display", Georgia, serif;
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  
+  --color-gold-50: #fefcf3;
+  --color-gold-100: #fdf6df;
+  --color-gold-400: #e4c478;
+  --color-gold-500: #d9a751;
+  --color-gold-600: #c5913e;
+  --color-gold-700: #a1712a;
+  
+  --color-celestial-900: #0b0e1b;
+  --color-celestial-850: #101429;
+  --color-celestial-800: #131932;
+  --color-celestial-700: #1b2244;
+  --color-celestial-600: #232d56;
+}
+
+/* Customized glowing animations */
+@keyframes gold-pulse {
+  0%, 100% {
+    box-shadow: 0 0 12px rgba(217, 167, 81, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 24px rgba(217, 167, 81, 0.45);
+  }
+}
+
+.gold-glow {
+  animation: gold-pulse 4s infinite ease-in-out;
+}
+
+/* Beautiful custom overlay scrolls */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.03);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(217, 167, 81, 0.25);
+  border-radius: 99px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(217, 167, 81, 0.45);
+}
